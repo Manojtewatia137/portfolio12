@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
+
+    <title>Document</title>
+    <style>
+    .header{
+        height :20px;
+        width:100%;
+        background-color : brown;
+        color : white;
+        padding-left: 140px;
+        
+           
+    }
+    .image1{
+        margin: 10px 10px;
+        float: left;
+    }
+    .two{
+       display: inline-block; 
+       margin : 20px 30px; 
+       float: left;     
+       
+    }
+    .paragraph1{
+        color: brown;
+        font-size: 25px;
+    }
+    .paragraph2{
+        color:rgb(7, 7, 145);
+        font-size: 20px;
+    }
+    .paragraph4{
+         color: green;
+         font-size: 25px;
+         font-family: Aparajita;
+         
+
+    }
+    .icon {
+        display: inline-block;
+        margin : 30px 30px;
+
+
+    }
+    .fa-facebook{
+        color: blue;
+        font-size: 30px;
+        border:blue solid 1px ;
+        border-radius: 20px;
+
+    }
+    .fa-twitter{
+        color: blue;
+        font-size: 30PX;
+        border:blue solid 1px ;
+        border-radius: 30px;
+    }
+    .fa-instagram{
+        color: pink;
+        font-size: 30PX;
+        border:pink solid 1px ;
+        border-radius: 30px;
+    }
+    .fa-youtube{
+        color: red;
+        font-size: 30PX;
+        border:red solid 1px ;
+        border-radius: 30px;
+    }
+    .link{
+        text-decoration:none;
+    }
+
+    .image2{
+    
+          float: right; 
+         margin-top: 10px;
+         margin-right: 0%    
+    }
+    nav{
+            position:initial; 
+        }
+        ul{
+            position: absolute;
+        }
+        li{
+            list-style-type: none;
+            display: inline-block;
+            margin-left: -3px; 
+            padding: 10.5px;
+            background-color:brown;
+            margin-top: 50px;
+        
+            
+        }
+        ul li a{
+            color: white;
+            text-decoration: none;   
+        }
+        ul li:hover{
+            background-color: rgb(68, 6, 6);
+        }
+        .home{
+            background-color: rgb(112, 109, 109);
+        }
+        ul li li{
+            background-color:brown;
+            color:white;
+             margin-left: -52px;
+            display: none;
+            margin-top: 1px;
+            }
+            ul li:hover li{
+            display: block;
+            }
+            .menu_about{
+            list-style-type: none; 
+            padding: 12px;
+            background-color:rgb(4, 4, 34);
+            border-radius: 5px;
+            display: block;
+            margin-top: 1px;
+            color: white;
+        
+            }
+            .section{
+                margin-top: 20px;
+                margin-left:-40px;
+                cursor: pointer;
+                position: relative;
+                z-index: -1;
+            
+            }
+            button{
+                margin-left: 50px;
+                font-size:8px;
+                cursor: pointer;  
+            }
+            .section .menu_about:hover{
+            background-color:rgb(4, 4, 34); 
+        }
+        .one_img{
+            height: 400px;
+            width: 74%;
+            margin-left: 25%;
+            border: solid whitesmoke 7px;
+            border-radius: 10px;
+            display: block;
+            
+         }
+         .img2{
+             height: 390px;
+             width: 76%;
+             border: solid rgb(145, 145, 145) 1px;
+             margin-top: 50px;
+             border-radius: 15px;
+             float: left;
+         }
+         #img2{
+             margin:10px 35px;
+             border: solid black 1px;
+             border-radius: 10px;
+         }
+         .read{
+            
+             border: solid black 1px;
+             margin-left: 28px;
+             padding: 5px 60px;
+             background-color: rgb(236, 236, 236);
+             text-decoration: none;   
+         }
+         #img3{
+             display: inline-block;
+             margin-left: 280px;
+             border: solid black 1px;
+             border-radius: 10px;
+             margin-top: -355px;
+             width: 190px;
+             text-decoration: none;
+             
+         }
+         .manohar{
+            margin-left:300px;
+            margin-top: -124px;
+         }
+         .chief{
+           
+            margin-top: -20px;
+            
+         }
+         #img4{
+            display: inline-block;
+             margin-left: 520px;
+             border: solid black 1px;
+             border-radius: 10px;
+             margin-top: -360px;
+             width: 180px;
+
+         }
+         .tomar {
+             margin-left: 550px;
+             margin-top: -125px;
+         }
+         .prof{
+    
+           margin-top:-15px
+           
+         }
+         a{
+             text-decoration: none;
+             color: blue;
+  
+         }
+         .rusa1{
+             background-color: #bdb76b;
+             height: 170px;
+             width: 190px;
+             border-radius: 10px;
+
+         }
+        
+         .rusa2{
+            list-style-type: none; 
+            padding: 12px;
+            background-color:rgb(4, 4, 34);
+            display: block;
+            margin-top: 5px;
+            color: white;
+            
+         }
+        
+      
+         .link2{
+             margin-top: 280px;
+             background-color: #bdb76b;
+             height: 350px;
+             width: 190px;
+             border-radius: 10px;
+            
+         }
+         ul .link2:hover{
+             background-color: #bdb76b;
+         }
+     
+         .notice{
+            height: 390px;
+             width: 76%;
+             border: solid  rgb(145, 145, 145) 1px;
+             margin-top: 480px;
+             border-radius: 15px;
+        
+         } 
+         .notice1{
+            height: 310px;
+             width: 95%;
+             border: solid  rgb(236, 236, 236)  1px;
+             margin:auto;
+              margin-top: 20px; 
+              background-color: rgb(236, 236, 236);
+              border-radius: 10px; 
+
+         }
+         .notice2{
+             color: white;
+             background-color: brown;
+             text-align: center;
+             padding: 5px;
+             margin-top: 20px;
+             font-size: large; 
+         }
+         .view{
+             padding: 12px;
+             color: white;
+             font-size: large;
+             border-radius: 30px;
+             background-color: brown;
+             border:solid blue 1px;
+             margin-left: 0px;
+             
+         }
+        .footer{
+            padding: 1px;
+            background-color: brown;
+            margin-top: 20px;
+            width: 100%;
+            margin-top: 900px;
+        }
+        .footer1{
+         background-color:rgb(250, 207, 214);
+         height: 200px;
+        margin-top: 0%;
+         
+        }
+        .import{
+            background-color:rgb(250, 207, 214);
+            margin-left: 200px;
+            font-size: large;
+
+        }
+        ol .import:hover{
+            background-color: rgb(250, 207, 214);
+        }
+       
+        .Funn{
+            margin-left: 200PX;
+            margin-top: 200px;
+            
+        }
+
+        /* @media(max-width:320px){
+            
+        .header{
+        height :15px;
+        width:480px;
+        background-color : brown;
+        color : white;
+        padding-left: 140px;
+        
+           
+    }
+    .image1{
+        margin: 10px 10px;
+        /* float: left; */
+    
+    /* .two{
+    
+       display: inline-block; 
+       margin : 50px 30px; 
+       /* float: left;      */
+       
+    /* }
+    .image2{
+    
+    float: right; 
+   margin-top: 10px;
+      
+} */
+   
+    
+
+/*         
+        @media(min-width:480px){
+
+
+        }
+        @media(min-width:768px){
+
+
+        } */ 
+
+        
+    </style>
+</head>
+<body >
+    <div class="header">
+        ERP login | Mail login | Web login | DLMS login 
+    </div>
+    <div class="one child1">
+       <span class="image1"> <img src=https://jcboseust.ac.in/assets/uploads/media/e11f95725a67cdcc447f76a7fa75eef7.jpg> </span>
+    <div class="child two">
+        <span class="paragraph1"> <b> J.C.Bose University of Science & Technology, YMCA, Faridabad, Haryana </b></span> <BR>
+        <span class="paragraph2"> <b> (A Haryana State Government University) </b> </span> <br>
+       <span class="paragraph3"> <small> <b>(Established by haryana State Legislative Act No.21 of 2009 & Recognised by UGC Act 1956 u/s 22 to Confer Degrees) </b></small> </span><br>
+        <span class="paragraph4"><b>Accredited 'A+' Grade by NAAC </b></span>
+    </div>
+    <div class="icon"> 
+        <a href="https://m.facebook.com" target="blank" class="link"> <i class="fa-brands fa-facebook"></i> </a>
+       <a href="https://m.twitter.com" target="blank" class="link"> <i class="fa-brands fa-twitter"></i> 
+    </a>
+      <a href="https://m.instagram.com" target="blank" class="link"> <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://m.youtube.com" target="blank" class="link">  <i class="fa-brands fa-youtube"></i> 
+      </a> 
+
+       </div>
+       <span class="image2">  <img src="https://jcboseust.ac.in/assets/site/images/bose_web.png"> </span>
+    </div> 
+    <!-- navbar -->
+    <div class="menu">
+        <ul>
+            <li class="home"> <a href="ymca.html">Home</a> 
+            </li>
+            <li class="traning"> 
+                <a href="ymca.html">Training & Placement</a> 
+                <ul>
+                    <li><a href="ymca.html"> Professor Incharge</a> </li>
+                    <li><a href="ymca.html"> Placement  team</a> </li>
+                    <li><a href="ymca.html"> traning and Placement <br>website</a> </li>
+                </ul> 
+            </li>
+            <li> <a href="ymca.html">Students Corner</a> 
+                <ul>
+                    <li><a href="ymca.html"> Hall of Fame</a> </li>
+                    <li><a href="ymca.html"> Entitlement</a> </li>
+                    <li><a href="ymca.html"> Student Window</a> </li>
+                    <li><a href="ymca.html"> List of Approved <br> Boards/Universities 
+                    </a> </li>
+                    
+                </ul> 
+            </li>
+            <li> <a href="ymca.html">Reseach & Development</a> </li>
+            <li> <a href="ymca.html">Affiliated Colleges</a> </li>
+            <li> <a href="ymca.html">community College</a> </li>
+            <li> <a href="ymca.html">Alumni Portal</a> </li>
+            <li> <a href="ymca.html">Welfare</a> </li>
+            <li> <a href="ymca.html">Examination</a> 
+                <ul>
+                    <li><a href="ymca.html"> COE</a> </li>
+                    <li><a href="ymca.html"> COE Office</a> </li>
+                    <li><a href="ymca.html"> forms</a> </li>
+                    <li><a href="ymca.html"> Datesheet</a> </li>
+                    <li><a href="ymca.html"> Results</a> </li>
+                    <li><a href="ymca.html"> Exam Ordinance</a> </li>
+                    <li><a href="ymca.html"> Rate of Remunerations</a> </li>
+                    <li><a href="ymca.html"> Examination Annual <br> Report
+                    </a> </li>
+                </ul> 
+            </li>
+            <li> <a href="ymca.html">Accreditation & Rankings</a>
+                <ul>
+                <li><a href="ymca.html"> NIRF</a> </li>
+                <li><a href="ymca.html"> NAAC</a> </li>
+                <li><a href="ymca.html"> NBA</a> </li>
+                <li><a href="ymca.html"> ARIIA</a> </li>
+                <li><a href="ymca.html"> ISO Certification</a> </li>
+                </ul>    
+            </li> 
+             <!-- about -->
+            <div class="section">
+                <ul class="manu_bar">
+                <li class="menu_about">About University
+                    <button id="onn">+</button> </li>
+                  
+                <li class="menu_about">Govemence <button id="onn">+</button>  </li>
+                <li class="menu_about">Administration <button id="onn">+</button> </li>  
+                <li class="menu_about">Academics <button id="onn">+</button>  </l>
+                <li class="menu_about">Admissions <button id="onn">+</button> </li>
+                <li class="menu_about">Library <button id="onn">+</button>  </li>
+                <li class="menu_about"> University Cells <button id="onn">+</button>  </li>
+                <li class="menu_about">Internal Quality Assurance <BR> Cell(IQAC)<button id="onn">+</button> </li>  
+                <li class="menu_about">Grievance Redressal <BR><button id="onn">+</button>  </l>
+                <li class="menu_about">Feedback <button id="onn">+</button> </li>
+                <li class="menu_about">Extersion &  Outreach <button id="onn">+</button>  </li>
+                <li class="menu_about">Common Academics <br> Facilities <button id="onn">+</button>  </li>
+                <li class="menu_about">Common Infrastructure <br> Facilities <button id="onn">+</button> </li>  
+                <li class="menu_about">Green Initiative<button id="onn">+</button>  </l>
+                <li class="menu_about">MoUs and Collaborations <button id="onn">+</button> </li>
+                <li class="menu_about">Holidays List <button id="onn">+</button>  </li>
+
+                </ul>
+            <div class="one_img">
+                <img src="https://jcboseust.ac.in/assets/uploads/slider/63646f7cf1bbb286d71018dec87fa29d.jpg" width="100%" height="100%"> 
+                <div class="img2">
+                  <img src="https://jcboseust.ac.in/assets/site/images/BandaruDattatraya_Governor_0.jpg" height="230px" id="img2"> <br>
+                  <span class="bandaru" style="margin-left:35px;"> <a href="ymca.html" target="_blank">Shri Bandaru Dattatreya </a></span> 
+                  <h6 style="margin-left:30px"> Hon'ble Chancellor & Governor <br> <span style="margin-left: 60px;">Haryana </span> </h6> 
+                  <span class="read"> <a href="ymca.html" target="blank">Read more </a></span> <br>
+                 
+                    <img src="https://jcboseust.ac.in/assets/site/images/CM_Photo.png" height="230px" id="img3" style="float: left;"> <br>
+                    <p class="manohar">
+                    <span> <a href="ymca.html" target="blank">Shri Manohar Lal </a></span> <br> <br>
+                    </p>
+                    <p class="chief"></p>
+                   <h6 style=" margin-left:280px;"> Hon'ble Chief Minister Haryana </h6> 
+                  <span class="read" style=" margin-left:280px;"> <a href="ymca.html" target="blank">Read more </a></span> <br>
+                    </p> 
+                        <img src="https://jcboseust.ac.in/assets/uploads/media/5e0f11cc28c5610e5033571f0168c5c1.jpg" height="230px" id="img4" style="float: left;"> <br>
+                        <p class="tomar">
+                        <span> <a href="ymca.html">Prof. S.K Tomar </a></span> 
+                        </p>
+                        <p class="prof">
+                      <h6 style="margin-left: 540px;"> Hon'ble Vice-Chancellor </h6> 
+                      <span class="read" style="margin-left: 510px;"> <a href="ymca.html" target="blank">Read more </a></span> <br>
+                        </p>
+                </div> 
+               <div style="margin-left: 75%;">
+                <ul>
+                    <li class="rusa1"> Grants & Financial Support <br>
+                      <p class="rusa">
+                    <span class="rusa2"> TEQIP lll</span>
+                    <span class="rusa2"> RUSA</span>
+                    <span class="rusa2"> Vishwa Prakash Mission</sapn>
+                    </p>
+                    </li>
+               </ul>
+               <span>
+                   <ul>
+                   <li class="link2"> Quick Links <br>
+                    <p class="rusa">
+                        <span class="rusa2"> Adimission Notices</span>
+                        <span class="rusa2"> Events Notices</span>
+                        <span class="rusa2"> Examination Notices</sapn> 
+                        <span class="rusa2"> Recruitments Notices</span>
+                        <span class="rusa2"> Tender Notices</span>
+                        <span class="rusa2"> Mandatory Disctosure</sapn>   
+                        </p>
+                   </li>
+               </ul>
+            </div>
+        </span> 
+            <div class="notice">
+                <div class="notice1">
+                <p class="notice2"> Notices</p>
+                <button class="view"> View all</button>
+                <marquee direction="up"  scrollamount="2">
+                    <a href="https://jcboseust.ac.in/assets/uploads/advertisement/6c4ec62d4834dd34aed837556e707f0a.pdf" target="blank"> <mark style="color:red;"> NEW</mark> Advertisement for the Project Assistan in Universities funded R@D project published on 13 April 2023</a> <br>
+                    <a href="https://jcboseust.ac.in/assets/uploads/advertisement/6c4ec62d4834dd34aed837556e707f0a.pdf" target="blank">  <mark style="color:red;"> NEW</mark>Advertisement for the Project Assistan in Universities funded R@D project published on 13 April 2023  fee submission Notice in respect of Semester period Aug-Dec 2022 & jan-may 2023 for sc Student of BBA/B.SC/B.Tech courses who</a> <br>
+                    <a href="https://jcboseust.ac.in/assets/uploads/advertisement/6c4ec62d4834dd34aed837556e707f0a.pdf"  target="blank"> <mark style="color:red;"> NEW</mark>Advertisement for the Project Assistan in Universities funded R@D project published on 13 April 2023</a> <br>
+                    <a href="https://jcboseust.ac.in/assets/uploads/advertisement/6c4ec62d4834dd34aed837556e707f0a.pdf" target="blank"> <mark style="color:red;"> NEW</mark>Advertisement for the Project Assistan in Universities funded R@D project published on 13 April 2023  fee submission Notice in respect of Semester period Aug-Dec 2022 & jan-may 2023 for sc Student of BBA/B.SC/B.Tech courses who</a> <br>
+                    <a href="https://jcboseust.ac.in/assets/uploads/advertisement/6c4ec62d4834dd34aed837556e707f0a.pdf" target="blank"><mark style="color:red;"> NEW</mark>  fee submission Notice in respect of Semester period Aug-Dec 2022 & jan-may 2023 for sc Student of BBA/B.SC/B.Tech courses who</a>
+                </marquee>
+                </div>
+                
+               </div>
+              
+            </div>
+            <div class="footer">
+            </div>
+            <div class="footer1">
+                <ol>
+                    <li class="import"> Important Links 
+        
+                    </li><br>
+                    <span class="Funn">UGC</span> <BR>
+                    <span class="Funn"> DTE HARYANA</span> <br>
+                    <span class="Funn"> DigiLocker</span><br>
+                    <span class="Funn">HSTES</span><br>
+                </ol>
+
+            </div>
+            </div>
+ 
+        </ul> 
+
+        </div>
+        
+    </div> 
+    <!-- <ul id="header">
+        <li>home</li>
+        <li>home</li>
+        <li>12</li>
+        <li>23</li>
+        <li>234</li>
+    </ul> -->
+    
+    
+   
+    
+</body>
+<script>
+    function styling(){
+         document.getElementById("onn").addEventListener("click" , function navbar(){
+             document.getElementById("head").classList,add("one");
+
+
+         })
+        
+    }
+
+</script>
+</html
